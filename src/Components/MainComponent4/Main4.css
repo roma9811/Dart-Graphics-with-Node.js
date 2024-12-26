@@ -151,7 +151,13 @@
         flex: 1 1 100%;
         min-width: 100%;
     }
-    
+    .klienci_text h1{
+            text-align: center;
+            font-size: 2vh;
+    }
+    .partner h2{
+        font-size: 2.5vh;
+    }
 }
 
 @media (max-width: 480px) {
