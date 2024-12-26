@@ -1,0 +1,371 @@
+.main3 {
+    margin-top: 150px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+}
+.main3 h1 {
+    text-align: center;
+}
+.oferta_text {
+    border: 2px solid black;
+    max-width: 220px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.oferta-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.oferta-box {
+    height: 35vh;
+    width: 35vh;
+    margin-top: 40px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.6s;
+    background-color: #F5F7F7;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oferta-box img {
+    max-width: 90%;
+    max-height: 60%;
+    object-fit: contain;
+}
+
+.back-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #f7f4fa, #bcafcc);
+    text-align: left;
+    color: black;
+}
+.card-list li {
+    font-size: 14px;
+    color: #333;
+    padding: 6px 10px;
+    border-radius: 5px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+.card-list li:hover {
+    background-color: #e6e6e6; 
+    cursor: pointer;
+}
+.social_media {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.social-box {
+    position: relative;
+    height: 35vh;
+    width: 60%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    background-color: #F5F7F7;
+    max-width: 1150px;
+}
+ 
+.social-box img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+.project-container {
+    text-align: center;
+    margin-top: 150px;
+    height: auto;
+}
+
+.project-box1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.savings,
+.add_group,
+.checkmark {
+    background-color: #F5F7F7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 15%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    color: #8B8B8B;
+    transition: all 0.3s ease-in-out;
+}
+.oferta-box img,
+.savings img,
+.add_group img,
+.checkmark img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.oferta-box,
+.savings,
+.add_group,
+.checkmark {
+    transition: all 0.3s ease-in-out;
+}
+.project-container p{
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    .main3 {
+        margin-top: 100px;
+        height: auto;
+    }
+    .oferta-container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+    .oferta-box {
+        height: 25vh;
+        width: 30vh;
+        margin-top: 30px;
+        border-radius: 20px;
+        text-align: center;
+        cursor: pointer;
+        transition: transform 0.6s;
+        background-color: #F5F7F7;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+    }
+    
+    .back-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to bottom, #f7f4fa, #bcafcc);
+        text-align: center;
+        padding: 10px;
+        font-size: 0.95rem;
+    }
+    .social_media {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .social-box {
+        position: relative;
+        height: 30vh;
+        width: 80%;
+        max-width: 490px;
+        background-color: #F5F7F7;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+        padding: 0 10px;
+    }
+    
+    .social-box img {
+        max-width: 75%;
+        max-height: 75%;
+        object-fit: contain;
+    }
+    
+    .project-container {
+        text-align: center;
+        margin-top: 100px;
+        padding: 0 20px;
+    }
+    
+    .project-box1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .savings,
+    .add_group,
+    .checkmark {
+        background-color: #F5F7F7;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+        width: 25%;
+        max-width: 180px; 
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+        color: #8B8B8B;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .oferta-box img,
+    .savings img,
+    .add_group img,
+    .checkmark img {
+        max-width: 60%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 8px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main3 {
+        margin-top: 150px;
+        height: auto;
+    }
+    .oferta-container {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    
+    .oferta-box {
+        height: 25vh;
+        width: 40vh;
+        margin-top: 40px;
+        border-radius: 30px;
+        text-align: center;
+        cursor: pointer;
+        transition: transform 0.6s;
+        background-color: #F5F7F7;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 450px;
+        max-height: 400px;
+    }
+    
+    .oferta-box img {
+        max-width: 90%;
+        max-height: 60%;
+        object-fit: contain;
+    }
+    
+    .back-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to bottom, #f7f4fa, #B39BCF);
+        text-align: left;
+    }
+    
+    .social_media {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .social-box {
+        position: relative;
+        height: 25vh;
+        width: 40vh;
+        max-width: 450px;
+        background-color: #F5F7F7;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0px;
+        cursor: pointer;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+        padding: 0 0 0 30px;
+    }
+    
+    .social-box img {
+        max-width: 80%;
+        max-height: 80%;
+        object-fit: contain;
+    }
+    
+    .project-container {
+        text-align: center;
+        margin-top: 150px;
+        height: auto;
+    }
+    
+    .project-box1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .savings,
+    .add_group,
+    .checkmark {
+        background-color: #F5F7F7;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        width: 35%;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+        color: #8B8B8B;
+        transition: all 0.3s ease-in-out; 
+    }
+    .oferta-box img,
+    .savings img,
+    .add_group img,
+    .checkmark img {
+        max-width: 55%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+    
+    .oferta-box,
+    .savings,
+    .add_group,
+    .checkmark {
+        transition: all 0.3s ease-in-out; 
+    }
+    
+}

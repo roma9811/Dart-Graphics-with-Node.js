@@ -1,0 +1,191 @@
+.main4 {
+    margin-top: 150px;
+    height: auto;
+    padding: 20px;
+}
+
+.main4 h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.klienci-container {
+    display: flex;
+    justify-content: center;
+}
+
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    background-color: #f5f7f7;
+    padding: 35px;
+    border-radius: 30px;
+    width: 60%;
+    margin-top: 40px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.klienci_text {
+    border: 2px solid black;
+    max-width: 220px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.client-logo {
+    max-width: 100%; 
+    max-height: 15vh;
+    width: auto; 
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: grayscale(100%);
+}
+
+.client-logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: grayscale(0%);
+}
+
+.partner h2 {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 2em;
+}
+ 
+
+.partner {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.partner h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.kontakt_formular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f7f7;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 25px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    margin: 0 auto; 
+    height: 100%;
+}
+
+.form-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+}
+
+.form-input {
+    flex: 1 1 calc(50% - 1rem);
+    min-width: 200px;
+}
+
+.wyslij {
+    margin-top: 20px;
+}
+
+
+@media (max-width: 1024px) {
+    .clients-grid {
+        grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        padding: 30px;
+    }
+
+    .client-logo {
+        max-height: 12vh;
+    }
+
+    .partner h2 {
+        font-size: 1.8em;
+    }
+
+    .main4 h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .clients-grid {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+       gap: 30px;
+    }
+
+    .client-logo {
+        max-height: 10vh;  
+    }
+
+    .klienci_text {
+        max-width: 180px;
+    }
+
+    .main4 h1 {
+        font-size: 1.8em;
+    }
+
+    .partner h2 {
+        font-size: 1.6em;
+    }
+    .form-box {
+        flex-direction: column;
+    }
+
+    .form-input {
+        flex: 1 1 100%;
+        min-width: 100%;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .clients-grid {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .client-logo {
+        max-height: 8vh;  
+    }
+
+    .klienci_text {
+        max-width: 150px;
+        font-size: 1.2em;
+    }
+
+    .main4 h1 {
+        font-size: 1.5em;
+    }
+
+    .partner h2 {
+        font-size: 1.5em;
+    }
+
+    .kontakt_formular {
+        padding: 15px;
+    }
+
+    .form-input {
+        font-size: 0.9em;  
+    }
+
+    .wyslij button {
+        width: 100%;
+    }
+}
