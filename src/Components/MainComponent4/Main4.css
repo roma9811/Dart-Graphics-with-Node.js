@@ -4,14 +4,10 @@
     padding: 20px;
 }
 
-.main4 h1 {
-    text-align: center;
-    font-size: 2.5em;
-}
-
 .klienci-container {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .clients-grid {
@@ -28,13 +24,17 @@
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
 }
 
+.klienci_text h2 {
+    text-align: center;
+    padding: 5px;
+}
 .klienci_text {
     border: 2px solid black;
-    max-width: 220px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 5px;
-    text-align: center;
 }
+
 
 .client-logo {
     max-width: 100%; 
@@ -50,24 +50,15 @@
     cursor: pointer;
     filter: grayscale(0%);
 }
-
-.partner h2 {
+.partner h3{
     text-align: center;
-    margin-top: 90px;
-    font-size: 2em;
+    margin: 90px 0 20px 0;
+    
 }
- 
-
 .partner {
     text-align: center;
     margin: 50px 0;
 }
-
-.partner h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
 .kontakt_formular {
     display: flex;
     flex-direction: column;
@@ -104,20 +95,20 @@
 @media (max-width: 1024px) {
     .clients-grid {
         grid-template-columns: repeat(3, 1fr);
-        width: 80%;
+        width: 60%;
         padding: 30px;
     }
 
     .client-logo {
-        max-height: 12vh;
+        max-height: 5vh;
     }
 
-    .partner h2 {
-        font-size: 1.8em;
+    .partner h3 {
+        font-size: 2vh;
     }
-
-    .main4 h1 {
-        font-size: 2em;
+    .klienci_text h2{
+        text-align: center;
+        font-size: 2vh;
     }
 }
 
@@ -125,23 +116,17 @@
     .clients-grid {
         grid-template-columns: repeat(2, 1fr);
         width: 90%;
-       gap: 30px;
+        gap: 30px;
     }
 
     .client-logo {
         max-height: 10vh;  
     }
-
-    .klienci_text {
-        max-width: 180px;
+    .klienci_text h2{
+        font-size: 1.5vh;
     }
-
-    .main4 h1 {
-        font-size: 1.8em;
-    }
-
-    .partner h2 {
-        font-size: 1.6em;
+    .partner h3 {
+        font-size:1.7vh;
     }
     .form-box {
         flex-direction: column;
@@ -152,46 +137,7 @@
         min-width: 100%;
     }
     .klienci_text h1{
-            text-align: center;
-            font-size: 2vh;
-    }
-    .partner h2{
-        font-size: 2.5vh;
-    }
-}
-
-@media (max-width: 480px) {
-    .clients-grid {
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-
-    .client-logo {
-        max-height: 8vh;  
-    }
-
-    .klienci_text {
-        max-width: 150px;
-        font-size: 1.2em;
-    }
-
-    .main4 h1 {
-        font-size: 1.5em;
-    }
-
-    .partner h2 {
-        font-size: 1.5em;
-    }
-
-    .kontakt_formular {
-        padding: 15px;
-    }
-
-    .form-input {
-        font-size: 0.9em;  
-    }
-
-    .wyslij button {
-        width: 100%;
+        text-align: center;
+        font-size: 1.5vh;
     }
 }

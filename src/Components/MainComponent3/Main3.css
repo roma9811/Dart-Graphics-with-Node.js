@@ -1,22 +1,20 @@
 .main3 {
     margin-top: 150px;
     height: auto;
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: contain;
 }
-.main3 h1 {
+.main3 h2 {
     text-align: center;
+    padding: 5px;
 }
 .oferta_text {
     border: 2px solid black;
-    max-width: 220px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 5px;
 }
 
 .oferta-container {
-    margin-top: 30px;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -25,7 +23,7 @@
 
 .oferta-box {
     height: 35vh;
-    width: 35vh;
+    width: 33vh;
     margin-top: 40px;
     border-radius: 30px;
     text-align: center;
@@ -58,13 +56,16 @@
     color: #333;
     padding: 6px 10px;
     border-radius: 5px;
-    text-align: left;
+    text-align: center;
     overflow: hidden;
     text-overflow: ellipsis; 
     white-space: nowrap; 
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s ease;
     font-weight: bold;
+    letter-spacing: 0px;
+    display: flex;
+    justify-content: center;
 }
 .card-list li:hover {
     background-color: #e6e6e6; 
@@ -123,7 +124,6 @@
     width: 15%;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
     color: #8B8B8B;
-    transition: all 0.3s ease-in-out;
 }
 .oferta-box img,
 .savings img,
@@ -134,244 +134,65 @@
     object-fit: contain;
     border-radius: 10px;
 }
-
-.oferta-box,
-.savings,
-.add_group,
-.checkmark {
-    transition: all 0.3s ease-in-out;
-}
 .project-container p{
     padding-top: 15px;
 }
 
-@media screen and (max-width: 1200px) {
-    .main3 {
-        margin-top: 100px;
-        height: auto;
-    }
+@media only screen and (min-width: 1024px) {
     .oferta-container {
-        margin-top: 20px;
+        margin: 20px 40px 0 40px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 30px;
     }
-    
-    .oferta-box {
-        height: 25vh;
-        width: 30vh;
-        margin-top: 30px;
-        border-radius: 20px;
-        text-align: center;
-        cursor: pointer;
-        transition: transform 0.6s;
-        background-color: #F5F7F7;
-        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 300px;
-    }
-    
-    .back-box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: linear-gradient(to bottom, #f7f4fa, #bcafcc);
-        text-align: center;
-        padding: 10px;
-        font-size: 0.95rem;
-    }
-    .social_media {
-        display: flex;
-        justify-content: center;
-        margin-top: 40px;
-    }
     .social-box {
-        position: relative;
         height: 30vh;
-        width: 80%;
-        max-width: 490px;
-        background-color: #F5F7F7;
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+        width: 100%;
+        max-width:1000px;
         padding: 0 10px;
     }
-    
-    .social-box img {
-        max-width: 75%;
-        max-height: 75%;
-        object-fit: contain;
-    }
-    
-    .project-container {
-        text-align: center;
-        margin-top: 100px;
-        padding: 0 20px;
-    }
-    
-    .project-box1 {
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
-    
-    .savings,
-    .add_group,
-    .checkmark {
-        background-color: #F5F7F7;
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 15px;
-        width: 25%;
-        max-width: 180px; 
-        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-        color: #8B8B8B;
-        transition: all 0.3s ease-in-out;
-    }
-    
-    .oferta-box img,
-    .savings img,
-    .add_group img,
-    .checkmark img {
-        max-width: 60%;
-        height: auto;
-        object-fit: contain;
-        border-radius: 8px;
-    }
 }
-@media screen and (max-width: 768px) {
-    .main3 {
-        margin-top: 150px;
-        height: auto;
-    }
-    .oferta-container {
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 8px;
-    }
-    
-    .oferta-box {
-        height: 25vh;
-        width: 40vh;
-        margin-top: 40px;
-        border-radius: 30px;
-        text-align: center;
-        cursor: pointer;
-        transition: transform 0.6s;
-        background-color: #F5F7F7;
-        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 450px;
-        max-height: 400px;
-    }
-    
-    .oferta-box img {
-        max-width: 90%;
-        max-height: 60%;
-        object-fit: contain;
-    }
-    
-    .back-box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: linear-gradient(to bottom, #f7f4fa, #B39BCF);
-        text-align: left;
-    }
-    
-    .social_media {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-    }
-    
-    .social-box {
-        position: relative;
-        height: 25vh;
-        width: 40vh;
-        max-width: 450px;
-        background-color: #F5F7F7;
-        border-radius: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        letter-spacing: 0px;
-        cursor: pointer;
-        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-        padding: 0 0 0 30px;
-    }
-    
-    .social-box img {
-        max-width: 80%;
-        max-height: 80%;
-        object-fit: contain;
-    }
-    
-    .project-container {
-        text-align: center;
-        margin-top: 150px;
-        height: auto;
-    }
-    
-    .project-box1 {
-        display: flex;
-        justify-content: center;
-        margin-top: 40px;
-        gap: 30px;
-        flex-wrap: wrap;
-    }
-    
-    .savings,
-    .add_group,
-    .checkmark {
-        background-color: #F5F7F7;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 20px;
-        width: 35%;
-        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-        color: #8B8B8B;
-        transition: all 0.3s ease-in-out; 
-    }
-    .oferta-box img,
-    .savings img,
-    .add_group img,
-    .checkmark img {
-        max-width: 55%;
-        height: auto;
-        object-fit: contain;
-        border-radius: 10px;
-    }
-    
-    .oferta-box,
-    .savings,
-    .add_group,
-    .checkmark {
-        transition: all 0.3s ease-in-out; 
-    }
-   .oferta_text h1{
+ @media only screen and (max-width: 1024px) {
+    .oferta_text h2{
         text-align: center;
         font-size: 2vh;
     }
+    .main3 h2 {
+        text-align: center;
+        padding: 5px;
+    }
+    .oferta-container {
+        gap: 30px;
+        margin: 40px 30px 0 30px;
+    }
+    .oferta-box {
+        height: 33vh;
+        width: 33vh;
+    }
+    .social-box {
+        height: 30vh;
+        width: 80%;
+        letter-spacing: 2px;
+        padding: 50px;
+    }
+    .social-box img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .savings,
+    .add_group,
+    .checkmark {
+        width: 35%;
+        padding: 30px;
+    }
     .project-container h2{
-        font-size: 2.3vh;
+        font-size: 2vh;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .oferta_text h2 {
+        font-size: 1.5vh;
     }
 }

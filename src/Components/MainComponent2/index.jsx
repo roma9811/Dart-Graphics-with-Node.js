@@ -22,7 +22,7 @@ export const MainComponent2 = () => {
     <div className="main2" id="portfolio_scroll">
       <div className="portfolio">
         <div className="portfolio_text">
-          <h1>PORTFOLIO</h1>
+          <h2>PORTFOLIO</h2>
         </div>
         <div className="carousel-container">
           <Slider {...settings}>

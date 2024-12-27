@@ -55,7 +55,7 @@ export const MainComponent4 = () => {
     return (
         <div className="main4" id="klienci_scroll">
             <div className="klienci_text">
-                <h1>KLIENCI</h1>
+                <h2>KLIENCI</h2>
             </div>
             <div className="klienci-container">
                 <div className="clients-grid">
@@ -69,7 +69,7 @@ export const MainComponent4 = () => {
                 </div>
             </div>
             <div className="partner">
-                <h2>ZOSTAŃ NASZYM PARTNEREM</h2>
+                <h3>ZOSTAŃ NASZYM PARTNEREM</h3>
                 <div className="kontakt_formular">
                     <Box component="form" sx={{ "& > :not(style)": { m: 1, width: "25ch" } }} noValidate autoComplete="off">
                         <TextField

@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 export const MainComponent = () => {
     return(
         <div className="main" id="obo_mnie_scroll">
-            <div className="obo_mnie"><h1>OBO MNIE</h1></div>
+            <div className="obo_mnie"><h2>OBO MNIE</h2></div>
             <div className="main_container">
                 <div className="about_text">
                     <h2> „ </h2>

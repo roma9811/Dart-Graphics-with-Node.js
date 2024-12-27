@@ -2,9 +2,9 @@
     height:auto;
     margin-top: 40px;
 }
-.main h1{
+.obo_mnie h2{
     text-align: center;
-    font-size: 3vh;
+    padding: 5px;
 }
 .obo_mnie {
     border: 2px solid black;  
@@ -45,13 +45,18 @@
 .about_text button{
     margin-top: 20px;
 }
-@media only screen and (max-width: 1200px) {
+ @media only screen and (min-width: 1024px) {
+    .about_text{ 
+        margin-left:30px;
+    }
+}
+ @media only screen and (max-width: 1024px) {
     .main{
         height:auto;
         margin-top:none;
-        padding: 40px;
+        padding: 50px;
     }
-    .main h1{
+    .obo_mnie h2{
         text-align: center;
         font-size: 2vh;
     }
@@ -61,28 +66,9 @@
         flex-direction: column-reverse;
         margin-top: 80px;
     }
-    .imgDiko img {
-        width: 90%;
-        height: auto;
-        max-width: 500px;
-    }
-        
-    .about_text{
-        max-width: 650px;
-        line-height: 30px;
-    }
-    .about_text h2{
-        color: #6C2D9C;
-    }
-    .about_text h3{
-        color: gray;
-        margin: 20px 0 20px 0;
-    }
-    .about_text h3 span{
-        color:#D84A7B;
-    }
-    .about_text button{
-        margin-top: 20px;
+}
+@media screen and (max-width: 767px) {
+    .obo_mnie h2 {
+        font-size: 1.5vh;
     }
 }
- 

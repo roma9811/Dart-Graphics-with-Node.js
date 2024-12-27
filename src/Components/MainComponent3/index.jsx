@@ -51,7 +51,7 @@ export const MainComponent3 = () => {
     return (
         <div className="main3" id="oferta_scroll">
             <div className="oferta_text">
-                <h1>OFERTA</h1>
+                <h2>OFERTA</h2>
             </div>
             <div className="oferta">
                 <div className="oferta-container">
