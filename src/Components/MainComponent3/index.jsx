@@ -36,9 +36,7 @@ export const MainComponent3 = () => {
                                                                 <li>Projekty Banerów</li>
                                                                 <li>Projekty Ulotek i Broszur</li>
                                                                 <li>Projekty Katalogów </li>
-                                                                <li>Projekty Dokumentów Wielostronicowych</li>
                                                                 <li>Projekty Rollupów</li>
-                                                                <li>Projekty Scianek Wystawienniczych</li>
                                                             </ul>) },
         { id: "commerce", src: Commerce, title: "E-COMMERCE", backContent:  (<ul className="card-list"> 
                                                                                 <li>Banery</li>
