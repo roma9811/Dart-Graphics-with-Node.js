@@ -16,6 +16,7 @@
     align-items: center;
     gap: 10px;
     font-weight: bold;
+    padding: 5px;
 }
 .copy_right{
     border-top: 1px solid #8B8B8B;
@@ -23,4 +24,33 @@
     display: flex;
     justify-content: center;
     color: #757575;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .footer_box{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+        gap: 10px;
+    }
+    .mail_phone li{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    .copy_right{
+        border-top: 1px solid #8B8B8B;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        color: #757575;
+    }
 }

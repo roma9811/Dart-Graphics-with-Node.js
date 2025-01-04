@@ -156,6 +156,50 @@
   pointer-events: all; 
   opacity: 3;
 }
+@media only screen and (min-width: 1024px) {
+  .elegance_container {
+    position: relative;
+    height: 100vh; 
+    margin-top: 130px;
+  }
+  
+  .elegance_container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Assets/Images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1; 
+  }
+  .elegance_text h1{
+    font-size: 70px;
+    max-width: 400px;
+    margin-top: 120px;
+    font-size: 3vw;
+  }
+  .ml14 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  .ml14 .letter {
+    line-height: 1em;
+  }
+  .elegance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap-reverse;
+    padding-top: 60px;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .header_navigation {
     display: none; ;
@@ -192,6 +236,7 @@
 }
 .Burger a{
   color:#000;
+  text-align: left;
 }
 .elegance_text h1 {
   font-size: 5vw; 
@@ -205,7 +250,10 @@
   margin-top: 60px;
   max-width: 400px;
   }
-
+  .Burger a{
+    color:#000;
+    text-align: left;
+  }
 }
  
  

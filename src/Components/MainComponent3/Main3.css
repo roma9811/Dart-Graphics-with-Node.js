@@ -54,22 +54,9 @@
 .card-list li {
     font-size: 14px;
     color: #333;
-    padding: 6px 10px;
-    border-radius: 5px;
+   padding: 8px;
     text-align: center;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-    white-space: nowrap; 
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
-    transition: background-color 0.3s ease;
     font-weight: bold;
-    letter-spacing: 0px;
-    display: flex;
-    justify-content: center;
-}
-.card-list li:hover {
-    background-color: #e6e6e6; 
-    cursor: pointer;
 }
 .social_media {
     display: flex;
@@ -195,4 +182,20 @@
     .oferta_text h2 {
         font-size: 1.5vh;
     }
+    .card-list li {
+        font-size: 13px;
+    }
+    .oferta-box {
+        height: 33vh;
+        width: 36vh;
+    }
+    .back-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #f7f4fa, #bcafcc);
+    text-align: left;
+    color: black;
+    padding: 20px;
+}
 }
