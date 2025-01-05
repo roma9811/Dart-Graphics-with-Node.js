@@ -117,10 +117,13 @@
         grid-template-columns: repeat(2, 1fr);
         width: 90%;
         gap: 30px;
+        max-width: 500px;
     }
 
     .client-logo {
-        max-height: 10vh;  
+        max-height: 10vh;
+        min-height: 5vh;  
+        min-width: 50px;
     }
     .klienci_text h2{
         font-size: 1.5vh;
