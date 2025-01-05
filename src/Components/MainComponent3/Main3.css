@@ -164,8 +164,8 @@
         width: 80%;
         letter-spacing: 2px;
         padding: 50px;
-        max-width:400px;
-        min-height: 180px;
+        max-width:500px;
+        min-height: 200px;
     }
     .social-box img {
         max-width: 85%;
@@ -201,8 +201,8 @@
         width: 80%;
         letter-spacing: 2px;
         padding: 50px;
-        min-width:400px;
-        min-height: 180px;
+        max-width:380px;
+        max-height: 250px;
     }
     
     .back-box {
