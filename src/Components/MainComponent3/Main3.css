@@ -164,7 +164,7 @@
         width: 80%;
         letter-spacing: 2px;
         padding: 50px;
-         min-width:400px;
+        max-width:400px;
         min-height: 180px;
     }
     .social-box img {
