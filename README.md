@@ -16,16 +16,16 @@ It combines a modern frontend with a lightweight backend for form submissions, m
 ## Features
 
 **Frontend:**
-- Responsive layout (mobile-first)
+- Responsive layout 
 - Animated scroll effects with Framer Motion
-- Touch-friendly navigation and interactions (Touch Tools)
+- Touch-friendly navigation and interactions 
 - Sticky navbar and smooth section scrolling
 - Contact form with real-time validation
 - Clean UI with reusable components
 
 **Backend:**
 - Built with Node.js and Express
-- Email sending functionality via nodemailer (or another mail library)
+- Email sending functionality via nodemailer 
 - CORS and environment config support
 - Deployed as standalone service or connected to frontend
 
@@ -35,7 +35,6 @@ It combines a modern frontend with a lightweight backend for form submissions, m
 
 **Frontend:**
 - React
-- JavaScript (ES6+)
 - Framer Motion
 - Touch Tools
 - HTML5 / CSS3 (Flexbox & Grid)
@@ -43,7 +42,7 @@ It combines a modern frontend with a lightweight backend for form submissions, m
 **Backend:**
 - Node.js
 - Express.js
-- Nodemailer (or equivalent mailer)
-- dotenv (for environment variables)
+- Nodemailer
+- dotenv 
 - CORS
 
